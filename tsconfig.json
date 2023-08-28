@@ -1,0 +1,16 @@
+{
+  "extends": ["@tsconfig/node18/tsconfig", "@tsconfig/strictest/tsconfig"],
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "verbatimModuleSyntax": true
+  },
+  "ts-node": {
+    "esm": true
+  }
+}

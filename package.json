@@ -1,0 +1,19 @@
+{
+  "name": "tsconfig-pdc",
+  "version": "1.0.0",
+  "description": "Shared TypeScript compiler configuration",
+  "main": "tsconfig.json",
+  "scripts": {
+    "format": "prettier --write \"./**/*.{cjs,js,json,md,ts}\"",
+    "lint": "prettier --check \"./**/*.{cjs,js,json,md,ts}\""
+  },
+  "author": "Juliusz Gonera",
+  "license": "MIT",
+  "dependencies": {
+    "@tsconfig/node18": "^18.2.1",
+    "@tsconfig/strictest": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}
