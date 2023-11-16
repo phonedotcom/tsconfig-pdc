@@ -10,10 +10,10 @@
   "author": "Juliusz Gonera",
   "license": "MIT",
   "dependencies": {
-    "@tsconfig/node18": "^18.2.1",
-    "@tsconfig/strictest": "^2.0.1"
+    "@tsconfig/node20": "^20.1.2",
+    "@tsconfig/strictest": "^2.0.2"
   },
   "devDependencies": {
-    "prettier": "^3.0.2"
+    "prettier": "^3.1.0"
   }
 }
